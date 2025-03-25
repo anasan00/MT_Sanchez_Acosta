@@ -1,0 +1,54 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Effects of Price Shocks on conflict measures}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                &\multicolumn{1}{c}{Guerrilla attacks}&\multicolumn{1}{c}{Post-demobilization attacks}&\multicolumn{1}{c}{Guerrilla Massacres}&\multicolumn{1}{c}{Post-demobilization Massacccres}&\multicolumn{1}{c}{Causalities}\\
+\hline
+L.guerrattacks  &    0.551\sym{**} &                  &                  &                  &                  \\
+                &  (0.230)         &                  &                  &                  &                  \\
+[1em]
+L.posdattacks   &                  &   -0.062         &                  &                  &                  \\
+                &                  &  (0.070)         &                  &                  &                  \\
+[1em]
+L.guerrmass     &                  &                  &    0.012         &                  &                  \\
+                &                  &                  &  (0.037)         &                  &                  \\
+[1em]
+L.posdmass      &                  &                  &                  &    0.123\sym{**} &                  \\
+                &                  &                  &                  &  (0.055)         &                  \\
+[1em]
+L.causalities   &                  &                  &                  &                  &    0.096\sym{**} \\
+                &                  &                  &                  &                  &  (0.046)         \\
+[1em]
+L2.guerrattacks &    0.128         &                  &                  &                  &                  \\
+                &  (0.127)         &                  &                  &                  &                  \\
+[1em]
+p\_cafe          &    0.026         &   -0.016         &   -0.019         &    0.072\sym{**} &    0.586         \\
+                &  (0.673)         &  (0.056)         &  (0.046)         &  (0.035)         &  (1.701)         \\
+[1em]
+coffee\_rev      &   -0.016         &   -0.001         &    0.000         &   -0.006\sym{**} &   -0.091         \\
+                &  (0.052)         &  (0.004)         &  (0.003)         &  (0.002)         &  (0.128)         \\
+[1em]
+coffee\_rev\_postp&    0.001         &   -0.000         &   -0.000         &    0.000\sym{**} &   -0.003         \\
+                &  (0.001)         &  (0.000)         &  (0.000)         &  (0.000)         &  (0.006)         \\
+[1em]
+oil\_production  &   -0.045         &    0.003         &   -0.020         &   -0.057         &   -1.241         \\
+                &  (0.207)         &  (0.020)         &  (0.033)         &  (0.055)         &  (1.474)         \\
+[1em]
+oil\_rev         &    0.003         &   -0.000         &    0.002         &    0.005         &    0.096         \\
+                &  (0.017)         &  (0.002)         &  (0.003)         &  (0.005)         &  (0.117)         \\
+[1em]
+oil\_rev\_postp   &   -0.001         &   -0.000         &   -0.000         &   -0.000         &    0.002         \\
+                &  (0.000)         &  (0.000)         &  (0.000)         &  (0.000)         &  (0.005)         \\
+\hline
+Observations    &     9554         &    10509         &    10509         &    10509         &    10509         \\
+instr           &   34.000         &   35.000         &   35.000         &   35.000         &   35.000         \\
+AR1             &    0.018         &    0.000         &    0.000         &    0.000         &    0.000         \\
+AR2             &    0.937         &    0.292         &    0.183         &    0.888         &    0.290         \\
+phansen         &    0.248         &    0.462         &    0.826         &    0.435         &    0.267         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

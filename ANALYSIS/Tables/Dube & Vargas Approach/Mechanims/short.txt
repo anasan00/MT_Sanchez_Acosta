@@ -1,0 +1,16 @@
+	(1)	(2)	(3)
+VARIABLES	lcaprev	n_guerrsec	n_parsec
+			
+cofint_dvxlinternalp	5.593	-1.400*	-0.244*
+	(9.813)	(0.845)	(0.125)
+lpop	4.526	0.062	0.047
+	(5.141)	(0.317)	(0.118)
+coca99xyear	0.159	0.087**	0.090**
+	(0.293)	(0.039)	(0.042)
+oilprod88_dvxlop	10.691*	-1.174*	0.791*
+	(6.188)	(0.619)	(0.404)
+			
+Observations	5,730	17,208	17,208
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
+

@@ -1,0 +1,41 @@
+# install packages 
+#install.packages('sf')
+#install.packages('stars')
+install.packages("cartography")
+# load libraries 
+library(sf)
+library(ggplot2)
+library(stars)
+library(raster)
+library(cartography)
+
+# load data 
+borders <-st_read('GeoData/Municipios.shp')
+
+# plot boundaries 
+ggplot() +
+  geom_sf(data=borders)
+
+
+##### test with temperature
+
+t_1988 <- read_stars('CHELSA/CHELSA_swb_1988_V.2.1.tif')
+
+cropped <- st_crop(t_1988,col_bbox)
+
+ggplot() +
+  geom_stars(data=cropped)
+
+# test 2 
+t2 <- raster('CHELSA/CHELSA_swb_1988_V.2.1.tif')
+col_bbox <- extent(-80, -66, -5.0, 15)
+dta_col <- terra::crop(t2, col_bbox)
+
+plot(dta_col)
+
+vals <- terra::extract(dta_col, st_coordinates(borders)[,c('X','Y')])
+
+# load precipitation 
+chelsa_pr_198801 <- st_read('CHELSA/Zonal statistics/1988_01.shp')
+ggplot() +
+  geom_sf(data=chelsa_pr_198801, aes(fill=X_prcmean))

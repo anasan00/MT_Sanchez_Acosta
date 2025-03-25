@@ -1,0 +1,42 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Effects of Price Shocks on capital revenue}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+                &\multicolumn{1}{c}{Main specification}&\multicolumn{1}{c}{Peace agreement}\\
+\hline
+L.lcaprev       &    0.524\sym{***}&    0.530\sym{***}\\
+                &  (0.171)         &  (0.180)         \\
+[1em]
+L2.lcaprev      &    0.080         &    0.081         \\
+                &  (0.049)         &  (0.051)         \\
+[1em]
+p\_cafe          &    3.534         &    5.656         \\
+                & (13.515)         & (15.543)         \\
+[1em]
+coffee\_rev      &    0.067         &   -0.025         \\
+                &  (1.033)         &  (1.204)         \\
+[1em]
+coffee\_rev\_postp&                  &    0.018         \\
+                &                  &  (0.033)         \\
+[1em]
+oil\_production  &    3.414\sym{*}  &    8.020         \\
+                &  (1.784)         &  (6.205)         \\
+[1em]
+oil\_rev         &   -0.327\sym{*}  &   -0.738         \\
+                &  (0.170)         &  (0.561)         \\
+[1em]
+oil\_rev\_postp   &                  &   -0.016         \\
+                &                  &  (0.018)         \\
+\hline
+Observations    &     8548         &     8548         \\
+instr           &   25.000         &   27.000         \\
+AR1             &    0.000         &    0.000         \\
+AR2             &    0.167         &    0.188         \\
+phansen         &    0.841         &    0.288         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

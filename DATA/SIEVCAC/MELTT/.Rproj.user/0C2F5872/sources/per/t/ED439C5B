@@ -1,0 +1,28 @@
+{
+    "id": "ED439C5B",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1733342471876.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "id": "282463a39a6b4bbda02f22d49538cbdc",
+        "name": "tax_ls",
+        "title": "tax_ls",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 0,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1733342471876,
+    "read_only": false,
+    "read_only_alternatives": []
+}

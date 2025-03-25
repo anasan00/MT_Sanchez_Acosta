@@ -1,0 +1,51 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+            &\multicolumn{1}{c}{clashes}&\multicolumn{1}{c}{clashes}&\multicolumn{1}{c}{clashes}&\multicolumn{1}{c}{clashes}&\multicolumn{1}{c}{clashes}\\
+\hline
+cofint\_dvxlinternalp&       0.340         &       0.294         &       0.266         &       0.203         &       0.170         \\
+            &     (0.268)         &     (0.243)         &     (0.222)         &     (0.195)         &     (0.181)         \\
+[1em]
+coffee\_pp\_2014&      -0.009         &                     &                     &                     &                     \\
+            &     (0.009)         &                     &                     &                     &                     \\
+[1em]
+coffee\_pp\_2015&                     &      -0.009         &                     &                     &                     \\
+            &                     &     (0.009)         &                     &                     &                     \\
+[1em]
+coffee\_pp\_2016&                     &                     &      -0.009         &                     &                     \\
+            &                     &                     &     (0.009)         &                     &                     \\
+[1em]
+coffee\_pp\_2017&                     &                     &                     &      -0.008         &                     \\
+            &                     &                     &                     &     (0.009)         &                     \\
+[1em]
+coffee\_pp\_2018&                     &                     &                     &                     &      -0.006         \\
+            &                     &                     &                     &                     &     (0.009)         \\
+[1em]
+oilprod88\_dvxlop&      -0.998         &      -1.026         &      -1.058         &      -1.072         &      -1.110         \\
+            &     (1.090)         &     (1.129)         &     (1.142)         &     (1.154)         &     (1.172)         \\
+[1em]
+oil\_pp\_2014 &      -0.102         &                     &                     &                     &                     \\
+            &     (0.056)         &                     &                     &                     &                     \\
+[1em]
+oil\_pp\_2015 &                     &      -0.127\sym{*}  &                     &                     &                     \\
+            &                     &     (0.056)         &                     &                     &                     \\
+[1em]
+oil\_pp\_2016 &                     &                     &      -0.123\sym{*}  &                     &                     \\
+            &                     &                     &     (0.054)         &                     &                     \\
+[1em]
+oil\_pp\_2017 &                     &                     &                     &      -0.113\sym{*}  &                     \\
+            &                     &                     &                     &     (0.046)         &                     \\
+[1em]
+oil\_pp\_2018 &                     &                     &                     &                     &      -0.102\sym{*}  \\
+            &                     &                     &                     &                     &     (0.040)         \\
+\hline
+th          &        2014         &        2015         &        2016         &        2017         &        2018         \\
+depvar      &     clashes         &     clashes         &     clashes         &     clashes         &     clashes         \\
+N           &       32504         &       32504         &       32504         &       32504         &       32504         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

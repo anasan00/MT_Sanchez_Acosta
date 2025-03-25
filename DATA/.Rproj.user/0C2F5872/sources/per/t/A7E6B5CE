@@ -1,0 +1,26 @@
+{
+    "id": "A7E6B5CE",
+    "path": "D:/MA/MasterThesis/DATA/GeoData/RainfallTemperature.R",
+    "project_path": "GeoData/RainfallTemperature.R",
+    "type": "r_source",
+    "hash": "3451658990",
+    "contents": "",
+    "dirty": false,
+    "created": 1742120692387.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "8,15",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1733593094,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1733593094,
+    "read_only": false,
+    "read_only_alternatives": []
+}

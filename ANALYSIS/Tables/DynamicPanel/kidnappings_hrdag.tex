@@ -1,0 +1,42 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Effects of Price Shocks on Kidnapping}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                &\multicolumn{1}{c}{Guerrilla}&\multicolumn{1}{c}{Post-demobilization}&\multicolumn{1}{c}{Guerrilla}&\multicolumn{1}{c}{Post-demobilization}\\
+\hline
+L.guersec\_HRDAG &    0.063         &                  &    0.057         &                  \\
+                &  (0.061)         &                  &  (0.059)         &                  \\
+[1em]
+L.posdsec\_HRDAG &                  &   -0.116         &                  &   -0.106         \\
+                &                  &  (0.094)         &                  &  (0.098)         \\
+[1em]
+p\_cafe          &   -2.119         &    0.077         &   -2.557         &    0.110         \\
+                &  (2.033)         &  (0.170)         &  (2.131)         &  (0.182)         \\
+[1em]
+coffee\_rev      &    0.166         &   -0.008         &    0.199         &   -0.009         \\
+                &  (0.167)         &  (0.014)         &  (0.171)         &  (0.014)         \\
+[1em]
+coffee\_rev\_postp&                  &                  &   -0.017         &    0.004         \\
+                &                  &                  &  (0.018)         &  (0.004)         \\
+[1em]
+oil\_production  &    3.331\sym{**} &    0.018         &    3.702\sym{**} &    0.081         \\
+                &  (1.426)         &  (0.048)         &  (1.736)         &  (0.058)         \\
+[1em]
+oil\_rev         &   -0.288\sym{**} &   -0.001         &   -0.321\sym{**} &   -0.007         \\
+                &  (0.121)         &  (0.004)         &  (0.150)         &  (0.005)         \\
+[1em]
+oil\_rev\_postp   &                  &                  &   -0.014\sym{*}  &   -0.001         \\
+                &                  &                  &  (0.007)         &  (0.001)         \\
+\hline
+Observations    &     1159         &     1159         &     1159         &     1159         \\
+instr           &   33.000         &   32.000         &   37.000         &   36.000         \\
+AR1             &    0.000         &    0.084         &    0.000         &    0.077         \\
+AR2             &    0.588         &    0.254         &    0.575         &    0.277         \\
+phansen         &    0.495         &    0.959         &    0.542         &    0.981         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

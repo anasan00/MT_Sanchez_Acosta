@@ -1,0 +1,16 @@
+	(1)	(2)	(3)	(4)
+VARIABLES	guerrattacks	parattacks	clashes	causalities
+				
+cofint_dvxlinternalp	-0.158**	-0.005	-0.467**	-1.862*
+	(0.071)	(0.003)	(0.227)	(1.039)
+lpop	0.067	-0.009	-0.248	-1.603
+	(0.091)	(0.007)	(0.294)	(1.557)
+coca99xyear	-0.006	0.000	0.075***	0.301***
+	(0.018)	(0.000)	(0.021)	(0.103)
+oilprod88_dvxlop	0.804**	-0.004	-0.611	0.368
+	(0.395)	(0.004)	(0.662)	(2.647)
+				
+Observations	16,956	16,956	16,956	16,956
+Robust standard errors in parentheses				
+*** p<0.01, ** p<0.05, * p<0.1				
+

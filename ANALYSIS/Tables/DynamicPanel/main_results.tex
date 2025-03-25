@@ -1,0 +1,48 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Effects of Price Shocks on conflict measures}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                &\multicolumn{1}{c}{Guerrilla attacks}&\multicolumn{1}{c}{Post-demobilization attacks}&\multicolumn{1}{c}{Guerrilla Massacres}&\multicolumn{1}{c}{Post-demobilization Massacccres}&\multicolumn{1}{c}{Causalities}\\
+\hline
+L.guerrattacks  &    0.541\sym{**} &                  &                  &                  &                  \\
+                &  (0.234)         &                  &                  &                  &                  \\
+[1em]
+L.posdattacks   &                  &   -0.061         &                  &                  &                  \\
+                &                  &  (0.069)         &                  &                  &                  \\
+[1em]
+L.guerrmass     &                  &                  &    0.013         &                  &                  \\
+                &                  &                  &  (0.037)         &                  &                  \\
+[1em]
+L.posdmass      &                  &                  &                  &    0.123\sym{**} &                  \\
+                &                  &                  &                  &  (0.055)         &                  \\
+[1em]
+L.causalities   &                  &                  &                  &                  &    0.095\sym{**} \\
+                &                  &                  &                  &                  &  (0.046)         \\
+[1em]
+L2.guerrattacks &    0.133         &                  &                  &                  &                  \\
+                &  (0.128)         &                  &                  &                  &                  \\
+[1em]
+p\_cafe          &    0.300         &   -0.015         &   -0.019         &    0.072\sym{**} &    0.788         \\
+                &  (0.594)         &  (0.054)         &  (0.047)         &  (0.033)         &  (1.747)         \\
+[1em]
+coffee\_rev      &   -0.036         &   -0.001         &    0.000         &   -0.006\sym{**} &   -0.110         \\
+                &  (0.047)         &  (0.004)         &  (0.003)         &  (0.002)         &  (0.134)         \\
+[1em]
+oil\_production  &   -0.181         &   -0.023         &   -0.027         &   -0.088\sym{***}&   -0.744         \\
+                &  (0.198)         &  (0.023)         &  (0.032)         &  (0.020)         &  (0.483)         \\
+[1em]
+oil\_rev         &    0.014         &    0.002         &    0.002         &    0.008\sym{***}&    0.054         \\
+                &  (0.016)         &  (0.002)         &  (0.003)         &  (0.002)         &  (0.034)         \\
+\hline
+Observations    &     9554         &    10509         &    10509         &    10509         &    10509         \\
+instr           &   32.000         &   33.000         &   33.000         &   33.000         &   33.000         \\
+AR1             &    0.022         &    0.000         &    0.000         &    0.000         &    0.000         \\
+AR2             &    0.916         &    0.294         &    0.184         &    0.875         &    0.295         \\
+phansen         &    0.261         &    0.501         &    0.855         &    0.535         &    0.223         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
